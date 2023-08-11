@@ -6167,3 +6167,9 @@ function library:CreateWindow(options, ...)
 end
 
 return library, library_flags, library.subs
+            
+        else
+            counter = counter +1
+        end
+    end
+end
