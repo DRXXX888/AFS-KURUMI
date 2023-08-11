@@ -6165,3 +6165,5 @@ function library:CreateWindow(options, ...)
 	end
 	return windowFunctions
 end
+
+return library, library_flags, library.subs
